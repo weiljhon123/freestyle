@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: rgb(7, 241, 113);
+    height: 100vh;
+    background: linear-gradient(270deg, #6d09d8, #00ff88, #00c3ff, #ff00c8);
+    background-size: 800% 800%;
+    animation: gradientMove 10s ease infinite;
+}
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.yan {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+
+.first, .second, .third {
+    background: #6d09d8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    width: 45%;
+}
+a{
+    color: black;
+}
